@@ -119,13 +119,16 @@ class Person3{
         super(name);
     }
 }
+class AA{
+
+}
 
 /**
  * 更极端的情况：
  * 程序需要为类型形参设定多个上限（至多有一个父类上限，可以有多个接口上限），
  * 表明该类型参数必须是其父类的子类（是父类本身也行），并且实现多个上限接口
  */
-class Apple<T extends Person3 & java.io.Serializable & A>{
+class Apple<T extends Person3 & java.io.Serializable & Sleep>{
 
 }
 
