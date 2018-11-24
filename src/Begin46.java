@@ -39,7 +39,6 @@ public class Begin46 {
         books.forEach(obj -> System.out.println("迭代集合元素：" + obj));
 
 
-
         //（2）使用Iterator遍历集合
         Iterator it = books.iterator();
         while(it.hasNext()){

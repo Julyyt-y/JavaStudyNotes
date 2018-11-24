@@ -8,7 +8,6 @@
  * 所有的线程默认优先级都是5（共10级）
  */
 
-
 class Demo8 implements Runnable{
     @Override
     public void run() {

@@ -1,17 +1,18 @@
 /**
  * 知识点：异常机制
- * 1.异常：就是程序在运行时出现不正常情况
- * 2.异常由来：问题也是现实生活中一个具体的事物，也可以通过Java类的形式进行描述，并封装成对象
- *           其实就是Java对不正常情况进行描述后的对象体现
+ * 1.异常：就是程序在运行时出现不正常情况。
+ * 2.异常由来：问题也是现实生活中一个具体的事物，也可以通过Java类的形式进行描述，并封装成对象，
+ *           其实就是Java对不正常情况进行描述后的对象体现。
  *
- * 3.对于问题的划分：两种，一种是严重的问题“不可治愈”，一种是非严重的问题“可治愈”
- *   对于严重的：Java通过Error类进行描述
- *               对于Error，一般不编写针对性的代码对其进行处理
- *   对应非严重的：Java通过Exception类进行描述
- *                 对应Exception，可以使用针对性的处理方式进行处理
- *    无论Error还是Exception，都具有一些共性内容，比如：不正常情况信息、引发原因等
+ * 3.对于问题的划分：两种，一种是严重的问题“不可治愈”，一种是非严重的问题“可治愈”，
+ *   对于严重的：Java通过Error类进行描述，
+ *               对于Error，一般不编写针对性的代码对其进行处理；
+ *   对应非严重的：Java通过Exception类进行描述，
+ *                 对应Exception，可以使用针对性的处理方式进行处理；
+ *    无论Error还是Exception，都具有一些共性内容，比如：不正常情况信息、引发原因等。
  *
- * 所有的异常类是从 java.lang.Exception 类继承的子类，Exception是Throwable类的子类。除了Exception外，Throwable还有一个子类Error 。
+ * 所有的异常类是从 java.lang.Exception 类继承的子类，
+ * Exception是Throwable类的子类。除了Exception外，Throwable还有一个子类Error 。
  * 异常类Exception有两个主要的子类：IOException 类和 RuntimeException 类。
  * 一个方法可以声明多个异常，多个异常之间用逗号隔开。
  *  Throwable
@@ -43,8 +44,8 @@
  *     不要简单定义一句e.printStackTrace(); ,
  *     也不要简单的就书写一条输出语句
  *
- * catch是用于处理异常，如果没有catch语句，则代表异常没有被处理过
- * 如果该异常是检测时异常，那么必须声明
+ * catch是用于处理异常，如果没有catch语句，则代表异常没有被处理过；
+ * 如果该异常是检测时异常，那么必须声明。
  *
  */
 class Demo2{
@@ -53,7 +54,8 @@ class Demo2{
         int[] arr = new int[a];
         System.out.println(arr[4]);
         if (b == 0){
-            throw new ArithmeticException("被0除啦");  //自定义异常，将toString显示的错误信息改成“被0除啦”
+            //自定义异常，将toString显示的错误信息改成“被0除啦”
+            throw new ArithmeticException("被0除啦");
         }
         return a/b;
     }
@@ -71,10 +73,12 @@ public class Begin26 {
 //            System.exit(0); //系统退出，jvm结束
 //        }
 
-        //多重捕获块
-        //在 try 语句后面添加任意数量的 catch 块。如果保护代码中发生异常，异常被抛给第一个 catch 块。
-        // 如果抛出异常的数据类型与 ExceptionType1 匹配，它在这里就会被捕获。如果不匹配，它会被传递给第二个 catch 块。
-        // 如此，直到异常被捕获或者通过所有的 catch 块。
+        /**多重捕获块
+         * 在try语句后面添加任意数量的catch块。如果保护代码中发生异常，异常被抛给第一个catch块。
+         * 如果抛出异常的数据类型与ExceptionType1匹配，它在这里就会被捕获。
+         * 如果不匹配，它会被传递给第二个catch块。
+         * 如此，直到异常被捕获或者通过所有的catch块。
+         */
         catch (ArithmeticException e){
             System.out.println("除以0啦");
             System.out.println(e.getMessage());  //打印  异常信息

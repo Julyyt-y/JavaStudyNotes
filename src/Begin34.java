@@ -6,7 +6,7 @@
  * getName();获取线程名称
  * 设置线程名称：setName或者构造函数
  *
- * 创建线程的第二种方式：实现Runnable接口：
+ * 创建线程的第二种方式——实现Runnable接口：
  *       1.定义类实现Runnable接口
  *       2.覆盖Runnable接口中的run方法
  *         将线程要运行的代码存放在该run方法中

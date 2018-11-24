@@ -8,21 +8,22 @@
  *
  * 什么是模板方法：
  * 在定义功能时，功能的一部分是确定的，但是有一部分是不确定的，而确定的部分在使用不确定的部分，
- * 那么这时就将不确定的部分暴露出去，由该类的子类去完成
+ * 那么这时就将不确定的部分暴露出去，由该类的子类去完成。
  */
 //定义抽象类
 abstract class GetTime{
     //final方法，目的是防止该方法中的内容被修改
-        public final void getTime(){
-            long start = System.currentTimeMillis();
+    public final void getTime(){
+        long start = System.currentTimeMillis();
 
-            runcode();
+        runcode();
 
-            long end = System.currentTimeMillis();
+        long end = System.currentTimeMillis();
 
-            System.out.println("毫秒" + (end - start));
-        }
-        public abstract void runcode();
+        System.out.println("毫秒" + (end - start));
+    }
+
+    public abstract void runcode();
 }
 
 class SubTime extends GetTime{
@@ -33,7 +34,6 @@ class SubTime extends GetTime{
             System.out.println(x);
         }
     }
-
 }
 public class Begin16 {
     public static void main(String[] args){

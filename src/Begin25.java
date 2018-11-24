@@ -13,6 +13,7 @@ class Test1{
     static Inter3 function(){
         return new Inter3() {
             public void method(){
+
                 System.out.println("method run");
             }
         };
@@ -45,6 +46,7 @@ class Overloading {
 
     //重载，参数列表不同
     public void test(int a){
+
         System.out.println("test2");
     }
 

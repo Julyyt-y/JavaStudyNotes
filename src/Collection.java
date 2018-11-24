@@ -14,6 +14,7 @@ import java.util.TreeSet;
  * Iterator接口：
  * 使用：Iterator iterator();
  * 返回一个Iterator对象，用于遍历集合里的元素
+ *
  */
 
 public class Collection {
@@ -25,7 +26,7 @@ public class Collection {
 
         method_get();
 
-        //        sortDemo();
+//        sortDemo();
 
 //        maxDemo();
 

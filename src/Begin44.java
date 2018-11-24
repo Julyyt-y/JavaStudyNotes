@@ -2,9 +2,9 @@
  * 知识点：StringBuffer、StringBuilder
  *
  * StringBuffer是字符串缓冲区，
- *   1.是一个容器；
- *   2.其长度是可变化的；
- *   3.可以直接操作多个数据类型；
+ *   1.是一个容器
+ *   2.其长度是可变化的
+ *   3.可以直接操作多个数据类型
  *   4.最终会通过toString方法变成字符串
  *
  * 容器具备的功能(部分)：
@@ -21,7 +21,7 @@
  *     6.将缓冲区中指定数据存储到指定字符数组中：
  *             void getChar(int srcBegin,int srcEnd,char[] dst,int dstBegin);包含头不包含尾
  *
- * JDK1.5版本之后出现了StringBuilder
+ * StringBuilder：
  * StringBuffer是线程同步（多线程使用）；StringBuilder是线程不同步（单线程使用）
  * StringBuilder不是线程安全的，而StringBuffer是线程安全的。但StringBuilder在单线程中的性能比StringBuffer高。
  * 以后开发，建议使用StringBuilder

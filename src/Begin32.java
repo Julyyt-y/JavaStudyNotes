@@ -17,6 +17,7 @@ package pack;  //包名的所有字母均小写
 //package pack.A.B.C
 public class Begin32 {
     public static void main(String[] args){
+
         System.out.println("main method run");
     }
 }

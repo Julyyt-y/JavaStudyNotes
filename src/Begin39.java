@@ -3,7 +3,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 知识点：线程间通讯---生产者消费者（毕向东147）
+ * 知识点：线程间通讯练习
+ * 需求：生产者消费者（毕向东147）
  *
  * 对于多个生产者和消费者，为什么要定义while判断标记？
  * 原因：让被唤醒的线程再标记一次

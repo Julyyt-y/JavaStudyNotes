@@ -50,13 +50,13 @@ class Circle implements Shape{
 }
 public class Begin31 {
     public static void main(String[] args){
-//        try {
+        try {
             Rec r = new Rec(3,9);
             r.getArea();
-//        }
-//        catch (NoValueExceprion e){
-//            System.out.println(e.toString());
-//        }
+        }
+        catch (NoValueExceprion e){
+            System.out.println(e.toString());
+        }
 
         Circle c = new Circle(-2);
         c.getArea();

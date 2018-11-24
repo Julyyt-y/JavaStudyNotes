@@ -80,14 +80,14 @@ public class Begin18 {
         d.eat();
         d.kanJia();
 
-        Animal c3 = new Cat();
+        Animal c3 = new Cat();//多态
         function(c3);  //类型提升，把猫提升为了动物，称为向上转型
         Cat c = (Cat)c3;
         c.catchMouse();  //这两句为强制转换，强制将父类的引用转换为子类的类型，称为向下转型
 
         /**编译时类型和运行时类型不一致，多态发生*/
-        Animal d2 = new Dog();
-        Animal p1 = new Pig();
+        Animal d2 = new Dog();//多态
+        Animal p1 = new Pig();//多态
         //不能将父类的类型转为子类类型
         //当父类的引用指向了自己的子类对象时，该引用可以被提升，也可以被强制转换
         //多态自始至终都是子类对象在做着变化

@@ -1,8 +1,8 @@
 public class Test11 {
     public static void main(String[] args){
-
+        method_1();
     }
-    public void method_1(){
+    public static void method_1(){
 
         Integer i1 = 100;
         Integer i2 = 100;
@@ -17,6 +17,4 @@ public class Test11 {
         System.out.println(s3.equals(s4));
         System.out.println(s3 == s4);
     }
-
-
 }

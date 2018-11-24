@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- * 知识点：泛型限定、泛型方法与方法重载、泛型构造器、
+ * 知识点：泛型限定、泛型方法与方法重载、泛型构造器
  *
  * 泛型方法：
  * eg： static <T> void fromArrayToCollection(T[] a,Collection<T> c){}

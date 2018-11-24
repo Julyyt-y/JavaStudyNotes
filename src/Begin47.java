@@ -1,5 +1,4 @@
 import java.util.*;
-
 /**
  * 知识点：泛型
  *
@@ -41,6 +40,7 @@ import java.util.*;
  *         如：List<String> str = new ArrayList<>;这种语法被称为泛型的“菱形”语法
  *         String是的子类型，但List<String>并不是<Object>的子类
  */
+
 public class Begin47 {
     public static void main(String[] args){
 

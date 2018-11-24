@@ -95,7 +95,9 @@ public class Begin51 {
 
 //        test();
 
-//        Copy_1();
+//        copy_1();
+
+//        copy_2();
 
         copyFile();
 
@@ -308,14 +310,14 @@ public class Begin51 {
         bufr.close();
     }
 
-    public static void Copy_1() throws IOException {
+    public static void copy_1() throws IOException {
         long start = System.currentTimeMillis();
         copy_1();
         long end = System.currentTimeMillis();
         System.out.println((end-start)+"毫秒");
     }
     //通过字节流的缓冲区完成复制
-    public static void copy_1()throws IOException{
+    public static void copy_2()throws IOException{
         BufferedInputStream bufis = new BufferedInputStream(new FileInputStream("E:\\17070046\\2017团日活动文件\\中北大学 17070046微视频.mp4"));
         BufferedOutputStream bufos = new BufferedOutputStream(new FileOutputStream("E:\\团日活动.mp4"));
         int by = 0;
@@ -362,5 +364,4 @@ public class Begin51 {
             }
         }
     }
-
 }

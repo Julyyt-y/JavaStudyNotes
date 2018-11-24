@@ -64,11 +64,11 @@ public class Begin55 {
 
 //        readObject();
 
-//        WriteTeacher();
+//        writeTeacher();
 
-//        ReadTeacher0();
+//        readTeacher0();
 
-//        SerializeMutable();
+//        serializeMutable();
 
 //        transientTest();
 
@@ -103,7 +103,7 @@ public class Begin55 {
     }
 
     //对象引用的序列化
-    public static void WriteTeacher(){
+    public static void writeTeacher(){
         try(
                 //创建一个ObjectOutputStream输出流
                 ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("J:\\teacher.txt"))){
@@ -122,7 +122,7 @@ public class Begin55 {
     }
 
     //对象引用的序列化：展示出实例对象只被序列化一次
-    public static void ReadTeacher0(){
+    public static void readTeacher0(){
         try(
                 //创建一个ObjectInputStream输出流
                 ObjectInputStream ois = new ObjectInputStream(new FileInputStream("J:\\teacher.txt"))){
@@ -141,7 +141,7 @@ public class Begin55 {
     }
 
     //展示这种序列化机制的潜在问题
-    public static void SerializeMutable(){
+    public static void serializeMutable(){
         try(
                 //创建一个ObjectOutputStream输出流
                 ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("J:\\teacher.txt"));

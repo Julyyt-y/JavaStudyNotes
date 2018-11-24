@@ -25,7 +25,6 @@ import java.io.IOException;
  *                     \--FileWriter
  *                     \--BufferedWriter
  *
- *
  * File类：
  * File类是java.io包下代表与平台无关的文件和目录，
  * 如果希望在程序中操作（新建、删除、重命名）文件和目录都可以通过File类来完成，

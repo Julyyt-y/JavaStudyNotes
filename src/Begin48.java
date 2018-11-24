@@ -14,7 +14,6 @@ import java.util.List;
  *
  * 类型通配符适用于任何支持泛型声明的接口和类
  *
- *
  */
 public class Begin48 {
     public static void main(String[] args){

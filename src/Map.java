@@ -38,9 +38,6 @@ import java.util.Set;
  *
  * Map集合的取出原理：将map集合转成set集合，再通过迭代器取出
  *
- * 练习：毕向东198-121
- *
- *
  */
 public class Map {
     public static void main(String[] args){

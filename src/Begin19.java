@@ -1,7 +1,7 @@
 /**
  * 知识点：多态的应用
  */
-
+//应用1：
 /*abstract class Student1{
 
     public abstract void study();
@@ -64,6 +64,7 @@ class DoStubent2{
 //}*/
 
 
+//应用2：
 //需求：电脑运行实例，电脑运行基于主板
 interface PCI{
     public void open();

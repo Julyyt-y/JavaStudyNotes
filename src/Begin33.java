@@ -99,7 +99,7 @@
 //    }
 //}
 
-/** 从运行结果来看，先执行的构造函数，再执行的start方法，最后执行的run方法 。
+/** 从运行结果来看，先执行的构造函数，再执行的start方法，最后执行的run方法。
  * 而且，是等所有的构造函数先执行完了再执行所有的start，以此类推
  */
 class RunnableDemo implements Runnable{

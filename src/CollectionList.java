@@ -6,7 +6,7 @@ import java.util.ListIterator;
 /**
  * 集合框架--List集合共性方法
  *
- *  * 总的说来，Java API中所用的集合类，都是实现了Collection接口，他的一个类继承结构如下：
+ * 总的说来，Java API中所用的集合类，都是实现了Collection接口，他的一个类继承结构如下：
  * Collection<--List<--Vector
  * Collection<--List<--ArrayList
  * Collection<--List<--LinkedList
@@ -46,7 +46,6 @@ import java.util.ListIterator;
  *                         pollFirst();  pollLast();   获取元素，但是元素被删除，如果集合中没有元素，会返回null
  *
  * List集合判断元素是否相同时，依据的是equals方法
- *
  *
  */
 public class CollectionList {

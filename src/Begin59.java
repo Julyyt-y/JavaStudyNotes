@@ -1,21 +1,26 @@
 import java.io.IOException;
 import java.net.URL;
+import java.net.URLClassLoader;
+import java.sql.Connection;
+import java.sql.Driver;
 import java.util.Enumeration;
+import java.util.Properties;
 
 /**
  * 知识点：类加载机制
  *
- * JVM（Java Virtual MachineJava虚拟机）和类：
+ * JVM（Java Virtual Machine Java虚拟机）和类：
  * 运行一个Java程序，该程序就会启动一个Java虚拟机进程，
  * 该Java程序中启动的所有线程都在改Java虚拟机进程中，他们都使用该JVM进程的内存区；
- * 当Java程序结束时，JVM进程结束，带进程在内存中的状态将会丢失；
+ * 当Java程序结束时，JVM进程结束，该进程在内存中的状态将会丢失；
  * 两个JVM之间不会共享数据。
  *
  * 类的加载（类初始化）：
- * 当程序主动使用某个类时，如果该类还没有被加载到内存中，则系统会通过加载、连接、初始化三个步骤来对该类进行初始化；
+ * 当程序主动使用某个类时，如果该类还没有被加载到内存中，
+ * 则系统会通过加载、连接、初始化三个步骤来对该类进行初始化；
  * 类加载是指将类的class文件读入内存，并为之创建一个java.lang.Class对象；
  * 也就是说，当程序中使用任何类时，系统都会为之创建一个java.lang.Class对象；
- * 类本身也是一种对象，每个类是一批基友相同特征的对象的抽象（或者说概念）；
+ * 类本身也是一种对象，每个类是一批具有相同特征的对象的抽象（或者说概念）；
  * 而系统中所有的类实际上也是实例，他们都是java.lang.Class的实例。
  * 类加载由类加载器完成，类加载器通常由JVM提供，JVM提供的这些类加载器通常被称为系统类加载器；
  * 此外，开发者也可以通过继承ClassLoader基类来创建自己的类加载器；
@@ -90,10 +95,21 @@ import java.util.Enumeration;
  * 创建并使用自定义的类加载器：
  * （Begin60.java）
  *
+ * URLClassLoader类：
+ * 该类是系统类加载器和扩展类加载器的父类（继承关系）；
+ * URLClassLoader类功能比较强大，
+ * 它既可以从本地文件系统获取二进制文件来加载类，也可以从远程主机获取二进制文件来加载类；
+ * URLClassLoader类提供了两个构造器；
+ * 得到了URLClassLoader对象之后，可以通过调用该对象的loadClass()方法来加载指定类。
+ *
  */
 public class Begin59 {
     //定义该类的类变量
     public static int aa = 6;
+
+    //使用URLClassLoader类
+    private static Connection conn;
+
     public static void main(String[] args) throws ClassNotFoundException, IOException {
         //输出两个类变量赋值结果
         System.out.println(Test.a);
@@ -106,7 +122,7 @@ public class Begin59 {
 
 //        BootstrapTest();
 
-        classLoaderPropTest();
+//        classLoaderPropTest();
     }
 
     public static void classLoaderTest() throws ClassNotFoundException{
@@ -144,6 +160,26 @@ public class Begin59 {
         System.out.println("扩展类加载器的加载路径：" + System.getProperty("java.ext.dirt"));
         //父加载器是null，并不根类加载器，因为根类加载器并没有继承ClassLoader抽象类
         System.out.println("扩展类加载器的parent：" + extensionLader.getParent());
+    }
+
+    //定义一个获取数据库连接的方法
+    public static Connection getConn(String ur,String user,String pass) throws Exception{
+        if (conn == null){
+            //创建一个URL数组
+            URL[] urls = {new URL("file:mysql-connector-java-5.1.30-bin.jar")};
+            //以默认的ClassLoader作为父ClassLoader，创建URLClassLoader
+            URLClassLoader myClassLoader = new URLClassLoader(urls);
+            //加载MySQL的JDBC驱动，并创建默认实例
+            Driver driver = (Driver)myClassLoader.loadClass("com.mysql.jdbc.Driver").newInstance();
+            //创建一个设置JDBC连接属性的Properties对象
+            Properties props = new Properties();
+            //至少需要为该对象传入user和password两个属性
+            props.getProperty("user",user);
+            props.getProperty("password",pass);
+            //调用Driver对象的connect方法来获得数据库的连接
+            conn = driver.connect(String.valueOf(urls),props);
+        }
+        return conn;
     }
 
 }

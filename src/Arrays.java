@@ -4,11 +4,10 @@ import java.util.List;
 import java.util.Map;
 import static java.util.Arrays.*; //静态导入，导入的是Arrays这个类中的所有静态成员
 
-/** 接Begin47*/
+/** 接Begin45*/
 
 /**
  * 知识点：集合--Arrays（数组）
-
  *
  * asList：将数组变成List集合
  * 把数组变成集合的好处：可以使用集合的方法来操作数组中的元素，
@@ -23,14 +22,6 @@ import static java.util.Arrays.*; //静态导入，导入的是Arrays这个类�
  *     所以应当创建一个长度刚刚好的数组。
  *   2.为什么要将集合变数组？
  *     为了限定对元素的操作，不需要进行增删了
- *
- * 高级for循环：
- *   1.格式：for(数据类型  变量名：被遍历的集合（Collection）或者数组){
- *   }
- *   2.此循环的局限：只能对集合中的元素进行取出，而不能做修改动作
- *   3.对集合进行遍历：只能获取集合中的元素，不能对集合进行操作
- *     迭代器除了遍历，还可以进行remove集合中元素的动作
- *     如果是ListIterator，还可以在遍历过程中对集合进行增删改查的动作
  *
  *   JDK1.5以后出现的新特性：1.如下paramMethod； 2.静态导入
  *   方法的可变参数：其实就是上一种数组参数的简写形式，不用每一次都手动的建立数组对象，
@@ -76,43 +67,6 @@ public class Arrays {
         System.out.println(arr.length);
     }
 
-    public static void forEach(){
-
-        ArrayList<String> al = new ArrayList<String>();
-        al.add("abc_1");
-        al.add("abc_2");
-        al.add("abc_3");
-        Iterator<String> it = al.iterator();
-//        while (it.hasNext()){
-//            System.out.println(it.next());
-//        }
-        for (String s : al){  //此循环的局限：只能对集合中的元素进行取出，而不能做修改动作
-//            s = "kk";
-            System.out.println(s);
-        }
-
-        int[] arr = {3,5,1};
-        for (int i : arr){
-            System.out.println("i:"+i);
-        }
-
-        HashMap<Integer,String> hm = new HashMap<Integer, String>();
-        hm.put(1,"a");
-        hm.put(2,"b");
-        hm.put(3,"c");
-        Set<Integer> keySet = hm.keySet();
-        for (Integer i : keySet){
-            System.out.println(i+":"+hm.get(i));
-        }
-
-//        Set<Map.Entry<Integer,String>> entrySet = hm.entrySet();
-//        for (Map.Entry<Integer,String> me : entrySet){
-//            System.out.println(me.getKey()+"....."+me.getValue());
-//        }
-        for (Map.Entry<Integer,String> me : hm.entrySet()){
-            System.out.println(me.getKey()+"....."+me.getValue());
-        }
-    }
 
     public static void asList(){
 

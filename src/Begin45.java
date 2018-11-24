@@ -23,7 +23,6 @@
  *                     toOctalString();
  * 其它进制转成十进制：parseInt(string,radix);
  *
- * JDK1.5版本以后出现的新特性
  */
 public class Begin45 {
     public static void sop(String str){

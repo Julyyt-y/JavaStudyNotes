@@ -18,7 +18,6 @@ import java.util.Properties;
  *
  * properties getProperties();：获取系统属性信息
  *
- * 练习：毕向东216
  */
 public class Begin58 {
     public static void main(String[] args){

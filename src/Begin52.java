@@ -10,6 +10,7 @@ import java.io.*;
  *       2.定义读取流和C盘文件关联；
  *       3.通过不断的读写来完成数据的存储；
  *       4.关闭资源
+ *
  */
 public class Begin52 {
     public static void main(String[] args)throws IOException{
@@ -18,9 +19,9 @@ public class Begin52 {
 
 //        copy_2();
 
-//        FileReader_1();
+//        fileReader_1();
 
-        LineNumberReader();
+        lineNumberReader();
     }
 
     //每次读1024个char字符
@@ -74,7 +75,7 @@ public class Begin52 {
 
     //FileReader的其它用法演示
     //程序最后使用了自动关闭资源的try语句来关闭文件输入流，这样保证了输入流一定会被关闭
-    public static void FileReader_1() throws IOException {
+    public static void fileReader_1() throws IOException {
         try(FileReader fr = new FileReader("E:\\JAVA\\untitled\\src\\Begin51.java")) {
             char[] cbuf = new char[32];     //创建一个长度为32的“竹筒”
             int hasRead = 0;    //用于保存实际读取的字符数
@@ -88,7 +89,7 @@ public class Begin52 {
     }
 
     //LineNumberReader的使用
-    public static void LineNumberReader() throws IOException {
+    public static void lineNumberReader() throws IOException {
         FileReader fr = new FileReader("J:\\Java_Begin51.txt");  //E盘中必须有文件
         LineNumberReader lnr = new LineNumberReader(fr);
 

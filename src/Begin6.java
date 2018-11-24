@@ -15,7 +15,7 @@ public class Begin6 {
     }
 
     /**
-     * 十进制转化为 2 进制
+     * 十进制转化为2进制
      */
     public static void toBin(int num){
         StringBuffer sb = new StringBuffer(); // 装数据的容器，但此容器会将得到的数据进行反转
@@ -28,7 +28,7 @@ public class Begin6 {
     }
 
     /**
-     * 十进制转化为 2 进制 ：查表法
+     * 十进制转化为2进制 ：查表法
      */
     public static void tobin(int num){
         char[] chs = {'0','1'};
@@ -42,7 +42,7 @@ public class Begin6 {
     }
 
     /**
-     * 十进制转化为 16 进制(1)
+     * 十进制转化为16进制(1)
      */
     public static void toHex(int num){
         for(int x = 0;x < 8;x ++){
@@ -58,7 +58,7 @@ public class Begin6 {
     }
 
     /**
-     * 十进制转化为 16 进制(1)
+     * 十进制转化为16进制(1)
      */
     public static void tohex(int num){
         StringBuffer sb = new StringBuffer();
@@ -76,7 +76,7 @@ public class Begin6 {
     }
 
     /**
-     *十进制转化为 16 进制 ：查表法
+     *十进制转化为16进制 ：查表法
      */
     public static void ToHex(int num){
         char[] chs = {'0','1','2','3',

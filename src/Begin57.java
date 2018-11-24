@@ -18,6 +18,7 @@ import java.util.Scanner;
  * tryLock(long position, long size, boolean shared){}
  * 当shared为true时，表明该所是一个共享锁，它将允许多个进程来读取文件，但阻止其他进程获得对该文件的排他锁；
  * 当shared为false时，表明该所是一个排他锁，它将锁住对该文件的读写。
+ *
  */
 public class Begin57 {
     public static void main(String[] args)throws IOException,Exception{

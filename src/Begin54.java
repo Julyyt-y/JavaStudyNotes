@@ -18,15 +18,15 @@ import java.io.*;
  */
 public class Begin54 {
     public static void main(String[] args)throws IOException{
-//        RandomAccessFileTest();
+//        randomAccessFileTest();
 
-//        AppendContent();
+//        appendContent();
 
         insert("J:\\out.txt",45,"插入的内容\r\n");
     }
 
     //使用RandomAccessFile来访问指定的中间部分数据
-    public static void RandomAccessFileTest(){
+    public static void randomAccessFileTest(){
         //创建RandomAccessFile对象，该对象以“只读”方式打开指定的文件
         try(RandomAccessFile raf = new RandomAccessFile("E:\\JAVA\\untitled\\src\\Begin54.java","r")){
             //获取RandomAccessFile对象文件指针的位置，初始位置是0
@@ -45,7 +45,7 @@ public class Begin54 {
     }
 
     //向指定文件中追加内容
-    public static void AppendContent(){
+    public static void appendContent(){
         //以读、写方式打开一个RandomAccessFile对象
         try(RandomAccessFile raf = new RandomAccessFile("J:\\out.txt","rw")){
             raf.seek(raf.length());     //将记录指针移动到J:\\out.txt文件的末尾

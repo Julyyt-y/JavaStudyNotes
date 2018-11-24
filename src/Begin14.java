@@ -14,7 +14,6 @@
 abstract class Students{
     //抽象类中的抽象方法
     abstract void study();
-
     void sleep(){
 
         System.out.println("sleep");
@@ -28,9 +27,9 @@ class BaseStudents extends Students{
     }
 
     //父类中的sleep不是抽象方法，故此处sleep方法其实是覆盖了父类中的sleep方法
-//    void sleep() {
-//        System.out.println("Sleep");
-//    }
+    void sleep() {
+        System.out.println("Sleep");
+    }
 }
 class AdvStudents extends Students{
     void study(){
