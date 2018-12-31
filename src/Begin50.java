@@ -89,7 +89,6 @@ public class Begin50 {
             System.out.println(new String(buf,0,num));
         }
         fr.close();
-
     }
 
     //创建File对象

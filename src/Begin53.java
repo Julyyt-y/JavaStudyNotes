@@ -24,7 +24,7 @@ import java.util.Scanner;
  *
  * 流操作的基本规律：（毕向东244-245）
  */
-public class Begin53 {
+public class Begin53{
     public static void main(String[] args)throws IOException{
 //        test1();
 

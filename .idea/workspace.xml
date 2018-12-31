@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83318b13-da03-4a65-b518-bd2a6349250b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/新建文本文档.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/AA.class" afterPath="$PROJECT_DIR$/out/production/untitled/AA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Apple.class" afterPath="$PROJECT_DIR$/out/production/untitled/Apple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Bank.class" afterPath="$PROJECT_DIR$/out/production/untitled/Bank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Bank1.class" afterPath="$PROJECT_DIR$/out/production/untitled/Bank1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin35.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin39.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin39.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin41.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin41.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin42.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin42.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin45.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin45.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin46.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin46.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin48.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin48.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin50.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin50.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin51.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin51.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin52.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin52.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin53.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin53.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin54.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin54.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin55.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin55.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin56.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin56.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin57.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin57.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Begin58.class" afterPath="$PROJECT_DIR$/out/production/untitled/Begin58.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Collection.class" afterPath="$PROJECT_DIR$/out/production/untitled/Collection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/CollectionList.class" afterPath="$PROJECT_DIR$/out/production/untitled/CollectionList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/CollectionSet.class" afterPath="$PROJECT_DIR$/out/production/untitled/CollectionSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Consumer.class" afterPath="$PROJECT_DIR$/out/production/untitled/Consumer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Cus.class" afterPath="$PROJECT_DIR$/out/production/untitled/Cus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Demo8.class" afterPath="$PROJECT_DIR$/out/production/untitled/Demo8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Map.class" afterPath="$PROJECT_DIR$/out/production/untitled/Map.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/MyCompare.class" afterPath="$PROJECT_DIR$/out/production/untitled/MyCompare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Person3.class" afterPath="$PROJECT_DIR$/out/production/untitled/Person3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Producer.class" afterPath="$PROJECT_DIR$/out/production/untitled/Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/ReadStandard.class" afterPath="$PROJECT_DIR$/out/production/untitled/ReadStandard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Resource.class" afterPath="$PROJECT_DIR$/out/production/untitled/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/StrLenComparator.class" afterPath="$PROJECT_DIR$/out/production/untitled/StrLenComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Student3.class" afterPath="$PROJECT_DIR$/out/production/untitled/Student3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Student5.class" afterPath="$PROJECT_DIR$/out/production/untitled/Student5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/Test11.class" afterPath="$PROJECT_DIR$/out/production/untitled/Test11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/begin1.class" afterPath="$PROJECT_DIR$/out/production/untitled/begin1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/pack/Begin32.class" afterPath="$PROJECT_DIR$/out/production/untitled/pack/Begin32.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/其他笔记.txt" afterPath="$PROJECT_DIR$/其他笔记.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Begin50.java" afterPath="$PROJECT_DIR$/src/Begin50.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Begin53.java" afterPath="$PROJECT_DIR$/src/Begin53.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/begin1.java" afterPath="$PROJECT_DIR$/src/begin1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +54,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="begin1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/begin1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Begin50.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Begin50.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Begin51.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Begin51.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2673">
+              <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Begin52.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Begin52.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2079">
+              <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Begin53.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Begin53.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Begin18.java" />
         <option value="$PROJECT_DIR$/src/Begin19.java" />
         <option value="$PROJECT_DIR$/src/Begin20.java" />
         <option value="$PROJECT_DIR$/src/Begin21.java" />
@@ -72,10 +161,8 @@
         <option value="$PROJECT_DIR$/src/Begin47.java" />
         <option value="$PROJECT_DIR$/src/Begin48.java" />
         <option value="$PROJECT_DIR$/src/Begin49.java" />
-        <option value="$PROJECT_DIR$/src/Begin50.java" />
         <option value="$PROJECT_DIR$/src/Begin51.java" />
         <option value="$PROJECT_DIR$/src/Begin52.java" />
-        <option value="$PROJECT_DIR$/src/Begin53.java" />
         <option value="$PROJECT_DIR$/src/Begin54.java" />
         <option value="$PROJECT_DIR$/src/Begin55.java" />
         <option value="$PROJECT_DIR$/src/Begin56.java" />
@@ -91,13 +178,16 @@
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/src/begin1.java" />
+        <option value="$PROJECT_DIR$/src/Begin50.java" />
+        <option value="$PROJECT_DIR$/src/Begin53.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-112" />
+    <option name="x" value="-10" />
     <option name="width" value="968" />
-    <option name="height" value="1030" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -132,18 +222,14 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
@@ -156,18 +242,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Begin59.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="SearchEverywhereHistoryKey" value="FileInput&#9;PSI&#9;JAVA://java.io.FileInputStream&#10;a&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/deploy.jar!/com/sun/deploy/resources/image/about-lic.png" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_131" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -185,21 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Begin31">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Arrays" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.Begin8">
     <configuration name="Begin20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Begin20" />
@@ -245,6 +320,20 @@
     <configuration name="Begin31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Begin31" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled" />
+      <envs />
+    </configuration>
+    <configuration name="Begin8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Begin8" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -353,19 +442,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.begin1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Arrays" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Begin20" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Begin29" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Begin30" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Begin31" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Begin20" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Begin29" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Begin30" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Begin31" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Begin8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Begin31" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Begin30" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Begin29" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Begin20" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Arrays" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Begin8" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Begin31" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Begin30" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Begin29" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Begin20" />
       </list>
     </recent_temporary>
   </component>
@@ -400,30 +489,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22857143" sideWeight="0.5215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25544268" sideWeight="0.47840172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25439784" sideWeight="0.47840172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10411311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110539846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39912918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39912918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31785196" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -468,20 +557,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Begin25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Begin27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Begin28.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -567,34 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Begin51.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Begin50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Begin52.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Begin53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Begin54.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1046">
@@ -666,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="1066" column="10" lean-forward="false" selection-start-line="1066" selection-start-column="10" selection-end-line="1066" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,17 +742,9 @@
         <state relative-caret-position="90">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#90#91#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/begin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +892,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/text/DecimalFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="380" column="20" lean-forward="false" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/begin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Begin50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Begin51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Begin52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Begin8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Begin53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -915,6 +1005,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

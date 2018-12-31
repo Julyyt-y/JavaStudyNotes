@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 /**
  * 知识点：数据类型及运算符
  * 需求：无
@@ -11,14 +13,18 @@ public class begin1 {
         byte b = 122;
         System.out.println(b);
         long L = 4;
-        float f = 2.3f;
-       // double d = 34.56;
-        //char ch = '4';
-        //char ch1 = 'a';
-        //char ch2 = '+';
-       // boolean bo = true;
-        //String author = "李华";
-        System.out.println(f);
+        double f = 0.000;
+//        double d = 34.56;
+//        char ch = '4';
+//        char ch1 = 'a';
+//        char ch2 = '+';
+//        boolean bo = true;
+//        String author = "李华";
+
+        DecimalFormat df = new DecimalFormat(b + "#.00");
+        System.out.println(df.format(f));
+
+
         int a = 5;
         a = a + 6;
         System.out.println(a);
@@ -62,6 +68,7 @@ public class begin1 {
         String name  = "ZORO";
         boolean result  = name instanceof String;  //检查name对象是否是String类型（特定类型）
         System.out.println(result);
+
     }
 
 }
